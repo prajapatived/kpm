@@ -1,0 +1,67 @@
+.container{
+    background-color: #172433;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.col{
+    flex: 1;
+    margin: 25px;
+    padding: 25px;
+}
+p{
+    align-items: center;
+ }
+ .end{
+    background-color: #172433;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border-top: 0.5px solid white;
+}
+/* Extra small devices (phones, less than 600px) */
+@media (max-width: 600px) {
+    /* Styles for small phones */
+    .col{
+        margin: 5px;
+        padding: 5px;
+        font-size: 10px;
+        line-height: 18px;
+    }
+    p{
+        line-height: 18px;
+    }
+    i{
+        font-size: 5px;
+    }
+    .end{
+        font-size: 12px;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (min-width: 600px) and (max-width: 768px) {
+    /* Styles for tablets and large phones */
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 992px) {
+    /* Styles for small laptops and tablets */
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* Styles for desktops */
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* Styles for large desktops */
+  }
+  

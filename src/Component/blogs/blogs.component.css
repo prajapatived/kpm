@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.heading{
+    font-family: 'Raleway', sans-serif;
+    color: #222;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 6px;
+    margin-left: 40px;
+
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(34, 34, 34);
+}
+.blogs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.col:hover{
+    transform: translateY(-10px);
+}
+.col{
+    background-color: #f9f5ff;
+    cursor: pointer;
+    height: 20vh;
+    width: 45vh;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 5px;
+    color: rgb(85, 85,85);
+    box-shadow: rgba(36, 37, 38, 0.08) 4px 4px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col img{
+    height: 100px;
+    width: auto;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* Extra small devices (phones, less than 600px) */
+@media (max-width: 600px) {
+    /* Styles for small phones */
+    .heading{
+        font-size: 20px;
+        line-height: 2px;
+        font-weight: 600;
+        margin-bottom: 2px;
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+    .contain{
+        flex-direction: column;
+    }
+    p{
+        font-size: 10px;
+        line-height: 15px;
+        text-align: justify;
+        margin: 5px 0px;
+        padding: 10px 40px;
+    }
+    .col{
+        width: 25vw;
+        height: 15vh;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (min-width: 600px) and (max-width: 768px) {
+    /* Styles for tablets and large phones */
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 992px) {
+    /* Styles for small laptops and tablets */
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* Styles for desktops */
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* Styles for large desktops */
+  }
+  

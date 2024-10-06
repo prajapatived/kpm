@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    /* height: 25px;
+    width: auto; */
+    background-color: #2d4d80;
+    color: white;
+    
+}
+.list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.list ul {
+  list-style-type: none;    /* Remove default bullet points */
+  margin: 0;                /* Remove default margin */
+  padding: 0;               /* Remove default padding */
+  display: flex;            /* Arrange list items horizontally */
+}
+
+/* Style each list item */
+.list ul li {
+  padding: 10px 20px;       /* Padding around each item */
+  color: white;             /* White text color */
+  font-size: 18px;          /* Font size */
+  cursor: pointer;          /* Pointer cursor on hover */
+}
+.list ul li:first-child{
+  color: #D02E52;
+}
+
+/* Add hover effect */
+.list ul li:hover {
+  color: #D02E52; /* Change background color on hover */
+  border-radius: 5px;        /* Optional rounded corners on hover */
+}
+
+.list ul li{
+    line-height: 24px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    position: relative;
+    padding: 22px 10px;
+    transition: all linear 0.3s;
+    position: relative;
+}
+
+/* Extra small devices (phones, less than 600px) */
+@media (max-width: 600px) {
+  /* Styles for small phones */
+  .list ul li{
+    font-size: 10px;
+    padding: 5px;
+    margin: 3px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 768px) {
+  /* Styles for tablets and large phones */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Styles for small laptops and tablets */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* Styles for desktops */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Styles for large desktops */
+}

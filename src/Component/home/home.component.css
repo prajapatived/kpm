@@ -1,0 +1,36 @@
+.container img{
+object-fit: cover;
+height: 70vh;
+width: 100vw;
+margin-top: 10px;
+}
+
+/* Extra small devices (phones, less than 600px) */
+@media (max-width: 600px) {
+    /* Styles for small phones */
+    .container img{
+        height: 20vh;
+
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (min-width: 600px) and (max-width: 768px) {
+    /* Styles for tablets and large phones */
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 992px) {
+    /* Styles for small laptops and tablets */
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* Styles for desktops */
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* Styles for large desktops */
+  }
+  
